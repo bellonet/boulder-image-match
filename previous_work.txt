@@ -1,0 +1,24 @@
+Privious work - and maybe people to contact for taining data:
+
+
+https://github.com/scsukas8/NeuralClimb
+Image filters (so no training data) for hold detection - median filter, canny, otsu, convex hull, blob detector. They also tried to classify to color. 
+
+
+https://github.com/nandium/RouteMaker
+detection (tiny yolo) + create your own route
+Emailed.
+
+https://github.com/cydivision/climbnet
+segmentation (detectron2 - mask cnn)
+messaged
+
+https://www.nature.com/articles/nmeth0610-418
+Stephans paper on matching (supp has details on the method, stephan has the java code 3D impmenetation):
+geometric description matching (in our case can also use color & size and use weights for the different descriptors)
+due to perspective might be better to represent the distances normalized
+KDtree of the detections
+ransac (for perspective transformation) - doubt we can use it due to number of detections per image.
+
+
+
